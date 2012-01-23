@@ -13,6 +13,9 @@
 		E1A33AC814CD4CF5008FE3A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E1A33AC614CD4CF5008FE3A4 /* Credits.rtf */; };
 		E1A33ACB14CD4CF5008FE3A4 /* TXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A33ACA14CD4CF5008FE3A4 /* TXAppDelegate.m */; };
 		E1A33ACE14CD4CF5008FE3A4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A33ACC14CD4CF5008FE3A4 /* MainMenu.xib */; };
+		E1A33AD914CD4F70008FE3A4 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A33AD614CD4F70008FE3A4 /* FileReader.m */; };
+		E1A33ADA14CD4F70008FE3A4 /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A33AD814CD4F70008FE3A4 /* NSDataExtensions.m */; };
+		E1A33ADC14CD4FAD008FE3A4 /* facebook-hackercup-billboard.input in Resources */ = {isa = PBXBuildFile; fileRef = E1A33ADB14CD4FAD008FE3A4 /* facebook-hackercup-billboard.input */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,19 @@
 		E1A33ABA14CD4CF5008FE3A4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E1A33ABB14CD4CF5008FE3A4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E1A33ABC14CD4CF5008FE3A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E1A33ABF14CD4CF5008FE3A4 /* billboard-Info.plist */ = {isa = PBXFileReference; path = "billboard-Info.plist"; sourceTree = "<group>"; };
+		E1A33ABF14CD4CF5008FE3A4 /* billboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "billboard-Info.plist"; sourceTree = "<group>"; };
 		E1A33AC114CD4CF5008FE3A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1A33AC314CD4CF5008FE3A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E1A33AC514CD4CF5008FE3A4 /* billboard-Prefix.pch */ = {isa = PBXFileReference; path = "billboard-Prefix.pch"; sourceTree = "<group>"; };
+		E1A33AC514CD4CF5008FE3A4 /* billboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "billboard-Prefix.pch"; sourceTree = "<group>"; };
 		E1A33AC714CD4CF5008FE3A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		E1A33AC914CD4CF5008FE3A4 /* TXAppDelegate.h */ = {isa = PBXFileReference; path = TXAppDelegate.h; sourceTree = "<group>"; };
+		E1A33AC914CD4CF5008FE3A4 /* TXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXAppDelegate.h; sourceTree = "<group>"; };
 		E1A33ACA14CD4CF5008FE3A4 /* TXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXAppDelegate.m; sourceTree = "<group>"; };
 		E1A33ACD14CD4CF5008FE3A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E1A33AD514CD4F70008FE3A4 /* FileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileReader.h; path = LineReader/FileReader.h; sourceTree = "<group>"; };
+		E1A33AD614CD4F70008FE3A4 /* FileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileReader.m; path = LineReader/FileReader.m; sourceTree = "<group>"; };
+		E1A33AD714CD4F70008FE3A4 /* NSDataExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDataExtensions.h; path = LineReader/NSDataExtensions.h; sourceTree = "<group>"; };
+		E1A33AD814CD4F70008FE3A4 /* NSDataExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataExtensions.m; path = LineReader/NSDataExtensions.m; sourceTree = "<group>"; };
+		E1A33ADB14CD4FAD008FE3A4 /* facebook-hackercup-billboard.input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "facebook-hackercup-billboard.input"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 		E1A33AA814CD4CF4008FE3A4 = {
 			isa = PBXGroup;
 			children = (
+				E1A33AD414CD4F52008FE3A4 /* Line Reader */,
 				E1A33ABD14CD4CF5008FE3A4 /* billboard */,
 				E1A33AB614CD4CF5008FE3A4 /* Frameworks */,
 				E1A33AB414CD4CF5008FE3A4 /* Products */,
@@ -93,6 +102,7 @@
 		E1A33ABE14CD4CF5008FE3A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E1A33ADB14CD4FAD008FE3A4 /* facebook-hackercup-billboard.input */,
 				E1A33ABF14CD4CF5008FE3A4 /* billboard-Info.plist */,
 				E1A33AC014CD4CF5008FE3A4 /* InfoPlist.strings */,
 				E1A33AC314CD4CF5008FE3A4 /* main.m */,
@@ -100,6 +110,17 @@
 				E1A33AC614CD4CF5008FE3A4 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1A33AD414CD4F52008FE3A4 /* Line Reader */ = {
+			isa = PBXGroup;
+			children = (
+				E1A33AD514CD4F70008FE3A4 /* FileReader.h */,
+				E1A33AD614CD4F70008FE3A4 /* FileReader.m */,
+				E1A33AD714CD4F70008FE3A4 /* NSDataExtensions.h */,
+				E1A33AD814CD4F70008FE3A4 /* NSDataExtensions.m */,
+			);
+			name = "Line Reader";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +176,7 @@
 				E1A33AC214CD4CF5008FE3A4 /* InfoPlist.strings in Resources */,
 				E1A33AC814CD4CF5008FE3A4 /* Credits.rtf in Resources */,
 				E1A33ACE14CD4CF5008FE3A4 /* MainMenu.xib in Resources */,
+				E1A33ADC14CD4FAD008FE3A4 /* facebook-hackercup-billboard.input in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +189,8 @@
 			files = (
 				E1A33AC414CD4CF5008FE3A4 /* main.m in Sources */,
 				E1A33ACB14CD4CF5008FE3A4 /* TXAppDelegate.m in Sources */,
+				E1A33AD914CD4F70008FE3A4 /* FileReader.m in Sources */,
+				E1A33ADA14CD4F70008FE3A4 /* NSDataExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
