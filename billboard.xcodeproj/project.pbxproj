@@ -150,6 +150,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Tonny Xu";
 			};
 			buildConfigurationList = E1A33AAD14CD4CF4008FE3A4 /* Build configuration list for PBXProject "billboard" */;
 			compatibilityVersion = "Xcode 3.2";

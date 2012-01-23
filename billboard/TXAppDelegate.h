@@ -12,4 +12,8 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+@property (weak) IBOutlet NSTextField *outputLabel;
+- (IBAction)selectFileAction:(id)sender;
+@property (weak) IBOutlet NSTextField *inputFileLabel;
+
 @end
