@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1AE6CE14CDAF5A0099BA05 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE6CB14CDAF5A0099BA05 /* FileReader.m */; };
+		CE1AE6CF14CDAF5A0099BA05 /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AE6CD14CDAF5A0099BA05 /* NSDataExtensions.m */; };
 		E1A33AB814CD4CF5008FE3A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A33AB714CD4CF5008FE3A4 /* Cocoa.framework */; };
 		E1A33AC214CD4CF5008FE3A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1A33AC014CD4CF5008FE3A4 /* InfoPlist.strings */; };
 		E1A33AC414CD4CF5008FE3A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A33AC314CD4CF5008FE3A4 /* main.m */; };
 		E1A33AC814CD4CF5008FE3A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E1A33AC614CD4CF5008FE3A4 /* Credits.rtf */; };
 		E1A33ACB14CD4CF5008FE3A4 /* TXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A33ACA14CD4CF5008FE3A4 /* TXAppDelegate.m */; };
 		E1A33ACE14CD4CF5008FE3A4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A33ACC14CD4CF5008FE3A4 /* MainMenu.xib */; };
-		E1A33AD914CD4F70008FE3A4 /* FileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A33AD614CD4F70008FE3A4 /* FileReader.m */; };
-		E1A33ADA14CD4F70008FE3A4 /* NSDataExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A33AD814CD4F70008FE3A4 /* NSDataExtensions.m */; };
 		E1A33ADC14CD4FAD008FE3A4 /* facebook-hackercup-billboard.input in Resources */ = {isa = PBXBuildFile; fileRef = E1A33ADB14CD4FAD008FE3A4 /* facebook-hackercup-billboard.input */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1AE6CA14CDAF5A0099BA05 /* FileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileReader.h; path = LineReader/FileReader.h; sourceTree = "<group>"; };
+		CE1AE6CB14CDAF5A0099BA05 /* FileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileReader.m; path = LineReader/FileReader.m; sourceTree = "<group>"; };
+		CE1AE6CC14CDAF5A0099BA05 /* NSDataExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDataExtensions.h; path = LineReader/NSDataExtensions.h; sourceTree = "<group>"; };
+		CE1AE6CD14CDAF5A0099BA05 /* NSDataExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataExtensions.m; path = LineReader/NSDataExtensions.m; sourceTree = "<group>"; };
 		E1A33AB314CD4CF5008FE3A4 /* billboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = billboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A33AB714CD4CF5008FE3A4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E1A33ABA14CD4CF5008FE3A4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -32,10 +36,6 @@
 		E1A33AC914CD4CF5008FE3A4 /* TXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXAppDelegate.h; sourceTree = "<group>"; };
 		E1A33ACA14CD4CF5008FE3A4 /* TXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXAppDelegate.m; sourceTree = "<group>"; };
 		E1A33ACD14CD4CF5008FE3A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		E1A33AD514CD4F70008FE3A4 /* FileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileReader.h; path = LineReader/FileReader.h; sourceTree = "<group>"; };
-		E1A33AD614CD4F70008FE3A4 /* FileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileReader.m; path = LineReader/FileReader.m; sourceTree = "<group>"; };
-		E1A33AD714CD4F70008FE3A4 /* NSDataExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDataExtensions.h; path = LineReader/NSDataExtensions.h; sourceTree = "<group>"; };
-		E1A33AD814CD4F70008FE3A4 /* NSDataExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDataExtensions.m; path = LineReader/NSDataExtensions.m; sourceTree = "<group>"; };
 		E1A33ADB14CD4FAD008FE3A4 /* facebook-hackercup-billboard.input */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "facebook-hackercup-billboard.input"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -115,10 +115,10 @@
 		E1A33AD414CD4F52008FE3A4 /* Line Reader */ = {
 			isa = PBXGroup;
 			children = (
-				E1A33AD514CD4F70008FE3A4 /* FileReader.h */,
-				E1A33AD614CD4F70008FE3A4 /* FileReader.m */,
-				E1A33AD714CD4F70008FE3A4 /* NSDataExtensions.h */,
-				E1A33AD814CD4F70008FE3A4 /* NSDataExtensions.m */,
+				CE1AE6CA14CDAF5A0099BA05 /* FileReader.h */,
+				CE1AE6CB14CDAF5A0099BA05 /* FileReader.m */,
+				CE1AE6CC14CDAF5A0099BA05 /* NSDataExtensions.h */,
+				CE1AE6CD14CDAF5A0099BA05 /* NSDataExtensions.m */,
 			);
 			name = "Line Reader";
 			sourceTree = "<group>";
@@ -190,8 +190,8 @@
 			files = (
 				E1A33AC414CD4CF5008FE3A4 /* main.m in Sources */,
 				E1A33ACB14CD4CF5008FE3A4 /* TXAppDelegate.m in Sources */,
-				E1A33AD914CD4F70008FE3A4 /* FileReader.m in Sources */,
-				E1A33ADA14CD4F70008FE3A4 /* NSDataExtensions.m in Sources */,
+				CE1AE6CE14CDAF5A0099BA05 /* FileReader.m in Sources */,
+				CE1AE6CF14CDAF5A0099BA05 /* NSDataExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +313,7 @@
 				E1A33AD314CD4CF5008FE3A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
