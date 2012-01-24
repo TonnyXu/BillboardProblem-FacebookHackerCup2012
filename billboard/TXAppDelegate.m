@@ -210,7 +210,7 @@
       NSInteger wordLengthAppliedFontSize = [aWord length]*realFontSize;
       // width is not enough for a single word
       if (wordLengthAppliedFontSize > width) {
-        realFontSize = width/[aWord length];
+        realFontSize--;
         currentLineIndex = 0;
         currentLineWidth = 0;
         break;
@@ -229,7 +229,7 @@
       if (currentLineWidth + realFontSize < width) {
         // current line is safe for one more space.
         currentLineWidth += realFontSize;
-      }else{
+      }else if (idx != ([textInArray count] -1)){
         // need a new line
         currentLineIndex++;
         currentLineWidth = 0;
@@ -237,7 +237,7 @@
       
       // height is not enough for the whole text
       if ((currentLineIndex + 1) * realFontSize > height){
-        realFontSize = height/(currentLineIndex + 1);
+        realFontSize--;
         currentLineIndex = 0;
         currentLineWidth = 0;
         break;
