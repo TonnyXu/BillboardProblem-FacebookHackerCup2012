@@ -86,7 +86,7 @@
                              nil];
       [self.allCases addObject:aCase];
       
-//      NSLog(@"W: %@, H:%@, S:\"%@\"", [aCase objectForKey:@"width"], [aCase objectForKey:@"height"], [aCase objectForKey:@"text"]);
+      NSLog(@"W: %@, H:%@, S:\"%@\"", [aCase objectForKey:@"width"], [aCase objectForKey:@"height"], [aCase objectForKey:@"text"]);
       readLineIndex ++;
     }
   }];
@@ -122,6 +122,7 @@
     }else if (maxArea > width*height) {
       maxFontSize--;
     }
+    NSLog(@"*** Possible size: %ld", maxFontSize);
     
     // after find the max possible font size, we need to verify and adjust the font to suit for billboard.
     /*
@@ -153,7 +154,7 @@
   
   NSInteger upperSize = [[bounds objectForKey:UPPER_BOUND_KEY] integerValue];
   NSInteger lowerSize = [[bounds objectForKey:LOWER_BOUND_KEY] integerValue];
-//  NSLog(@"*** finding max size between %4ld...%ld", lowerSize, upperSize);
+  NSLog(@"*** finding max size between %4ld...%ld", lowerSize, upperSize);
 
   NSInteger upperArea = upperSize * upperSize * ([text length] - ([textInArray count] - 1));
   NSInteger lowerArea = lowerSize * ([text length] - ([textInArray count] - 1));
@@ -229,8 +230,8 @@
       if (currentLineWidth + realFontSize < width) {
         // current line is safe for one more space.
         currentLineWidth += realFontSize;
-      }else{
-        // need a new line
+      }else if (idx != ([textInArray count] -1)){
+        // still have some word, need a new line
         currentLineIndex++;
         currentLineWidth = 0;
       }
